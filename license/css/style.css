@@ -6,6 +6,8 @@
 
     Good luck, and have fun!
 */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Ms+Madi&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+
 #license {
     /* color #fdcc73; */
     /* color: #ed8c4f; */
@@ -81,6 +83,7 @@ h4 {
     text-align: center;
     font-size: 28px;
     font-weight: bold;
+    font-family: "Ms Madi", cursive;
 }
 
 #data-left, #data-right {
