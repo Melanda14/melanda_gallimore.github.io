@@ -9,6 +9,7 @@ body {
 #hero {
     background-image: url(../images/greenwoovenslacker.jpg);
     background-size: cover;
+    background-position: center;
     height: 50vh;
     display: flex;
     align-items: center;
