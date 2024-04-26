@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:ital,wght@0,100..900;1,100..900&family=Ms+Madi&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+}
+h1 {
+    font-family: "Staatliches", "sans-serif";
+}
+.contain {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+
+/* Header and Hero */
+header {
+    display: grid;
+    grid-template-rows: 100vh max-content;
+}
+#hero{
+    height: 100vh;
+    background: 
+        linear-gradient(to bottom,#fff0 50%, #fff0),
+        url(../images/wallpaper.jpg)
+        ;
+    background-size: cover;
+    background-position: top;
+}
+
+/* Navigation*/
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(180, 156, 202);
+}
+
+/* MAIN SECTION */
+main {
+    height: 300vh;
+    background-color: rgb(180, 156, 202);
+}
+
+
+/* Cards */
