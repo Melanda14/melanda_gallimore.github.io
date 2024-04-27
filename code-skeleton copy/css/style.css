@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    background-color: rgb(209, 175, 189);
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nav a {
+    color: #a14499;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: background-color 0.5s;
+}
+.nav a:hover {
+    background-color: rgb(224, 103, 183);
+}
+
+#hero {
+    background-image: url(../images/wallpaper.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom right;
+    display: flex;
+    align-items: center;
+}
+#hero h1 {
+    font-family:sans-serif;
+    margin: 0px;
+    font-size: 100px;
+}
+
+#layout h3 {
+    font-family:sans-serif;
+    font-size: 30px;  
+}
+
+#layout p {
+    margin: 10px 0px 20px;
+}
+#hero a {
+    display: inline-block;
+    border: 2px solid rgb(184, 76, 155);
+    background-color: rgb(215, 73, 211);
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: 
+        background-color 0.5s,
+        color 0.55;
+}
+
+#hero a:hover {
+    background-color: black;
+    color: #efefef;
+}
+.cropped-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    padding: 24px;
+    border: 10px solid rgb(187, 52, 133);
+}
+
+.cropped-grid-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit:fill; 
+    padding: 24px;
+}
+
+#footer {
+    text-align: center;
+    color: #efefef;
+    background-color: #111;
+    padding: 10px 0px;
+}
