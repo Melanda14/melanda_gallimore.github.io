@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Client Nav Bars</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar2">
+            <h1>AngelEars</h1>
+            <a href="index.html">News</a>
+            <a href="index.html">Editorials</a>
+            <a href="index.html">Media</a>
+            <a href="index.html" class="cta-button">SUBCRIBE NOW</a>
+        </div>
+        <div id="layout2">
+            <h1>AngelEars</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus odit fuga consequuntur tempora, maxime dolores 
+                doloribus esse consectetur natus aspernatur? Ipsam sed ut enim 
+                ratione. Unde tenetur quos aperiam? Sapiente? Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Harum et quam delectus 
+                excepturi, sint odio accusamus, est iste voluptatum aut optio 
+                a iusto rerum assumenda ipsa quisquam, hic modi saepe.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus odit fuga consequuntur tempora, maxime dolores 
+                doloribus esse consectetur natus aspernatur? Ipsam sed ut enim 
+                ratione. Unde tenetur quos aperiam? Sapiente? Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Harum et quam delectus 
+                excepturi, sint odio accusamus, est iste voluptatum aut optio 
+                a iusto rerum assumenda ipsa quisquam, hic modi saepe.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus odit fuga consequuntur tempora, maxime dolores 
+                doloribus esse consectetur natus aspernatur? Ipsam sed ut enim 
+                ratione. Unde tenetur quos aperiam? Sapiente? Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Harum et quam delectus 
+                excepturi, sint odio accusamus, est iste voluptatum aut optio 
+                a iusto rerum assumenda ipsa quisquam, hic modi saepe.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus odit fuga consequuntur tempora, maxime dolores 
+                doloribus esse consectetur natus aspernatur? Ipsam sed ut enim 
+                ratione. Unde tenetur quos aperiam? Sapiente? Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Harum et quam delectus 
+                excepturi, sint odio accusamus, est iste voluptatum aut optio 
+                a iusto rerum assumenda ipsa quisquam, hic modi saepe.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus odit fuga consequuntur tempora, maxime dolores 
+                doloribus esse consectetur natus aspernatur? Ipsam sed ut enim 
+                ratione. Unde tenetur quos aperiam? Sapiente? Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Harum et quam delectus 
+                excepturi, sint odio accusamus, est iste voluptatum aut optio 
+                a iusto rerum assumenda ipsa quisquam, hic modi saepe.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus odit fuga consequuntur tempora, maxime dolores 
+                doloribus esse consectetur natus aspernatur? Ipsam sed ut enim 
+                ratione. Unde tenetur quos aperiam? Sapiente? Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Harum et quam delectus 
+                excepturi, sint odio accusamus, est iste voluptatum aut optio 
+                a iusto rerum assumenda ipsa quisquam, hic modi saepe.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus odit fuga consequuntur tempora, maxime dolores 
+                doloribus esse consectetur natus aspernatur? Ipsam sed ut enim 
+                ratione. Unde tenetur quos aperiam? Sapiente? Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Harum et quam delectus 
+                excepturi, sint odio accusamus, est iste voluptatum aut optio 
+                a iusto rerum assumenda ipsa quisquam, hic modi saepe.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus odit fuga consequuntur tempora, maxime dolores 
+                doloribus esse consectetur natus aspernatur? Ipsam sed ut enim 
+                ratione. Unde tenetur quos aperiam? Sapiente? Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Harum et quam delectus 
+                excepturi, sint odio accusamus, est iste voluptatum aut optio 
+                a iusto rerum assumenda ipsa quisquam, hic modi saepe.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Voluptatibus odit fuga consequuntur tempora, maxime dolores 
+                doloribus esse consectetur natus aspernatur? Ipsam sed ut enim 
+                ratione. Unde tenetur quos aperiam? Sapiente? Lorem ipsum, dolor
+                sit amet consectetur adipisicing elit. Harum et quam delectus 
+                excepturi, sint odio accusamus, est iste voluptatum aut optio 
+                a iusto rerum assumenda ipsa quisquam, hic modi saepe.
+            </p>
+        </div>
+    </body>
+</html>
