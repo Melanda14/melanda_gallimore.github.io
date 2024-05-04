@@ -211,7 +211,7 @@ a {
 ****************************************************************************/
 
 /* TODO: Add your media query code here */
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) {
     
     #nav {
         display: flex;
@@ -236,6 +236,7 @@ a {
 
    
     .three-cards, .two-cards {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
@@ -249,3 +250,4 @@ a {
         display: block;
         margin-bottom: 10px;
     }
+}
