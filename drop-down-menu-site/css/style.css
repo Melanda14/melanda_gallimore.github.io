@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, rgb(163, 73, 139), rgb(235, 136, 198));
+}
+#navbar {
+    background: linear-gradient(to bottom, rgb(252, 252, 252), rgb(146, 73, 142));
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+}
+#navbar a:hover {
+    background: linear-gradient(to top, rgb(188, 55, 148), rgb(192, 39, 131));
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px; 
+    padding-bottom: 12px;
+}
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+.dropdown-menu a {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover {
+    background: rgb(106, 36, 108);
+}
+.hero h1, p {
+    text-align: center;
+}
+.content h2 {
+    text-align: center;
+}
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content1 h2 {
+    text-align: center;
+}
+.content1 img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content2 h2 {
+    text-align: center;
+}
+.content2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.content3 h2 {
+    text-align: center;
+}
+.content3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
