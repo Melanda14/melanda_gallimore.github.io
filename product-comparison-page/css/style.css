@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #ecd2a2;
+    color: #000000;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color:#bffbfa;
+    border-bottom: 1px solid #ccc;
+}
+
+.product-image {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    height: auto;
+}
+
+.content-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: #bffbfa;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.media-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.media-text img {
+    width: 40%;
+    height: auto;
+}
+
+.media-text div {
+    width: 50%;
+}
+
+.comparison-table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.comparison-table th, .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:#bffbfa;
+    border-top: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+    .content-cards, .media-text {
+        flex-direction: column;
+    }
+
+    .media-text img, .media-text div {
+        width: 90%;
+    }
+}
