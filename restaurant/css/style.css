@@ -37,14 +37,55 @@ body {
 
 /* CTA Button */
 .cta {
-    background-color: #E7A84A;
-    color: #326431;
+    background-color: #D8BA93; 
+    color: #326431;             
     padding: 10px 20px;
     display: inline-block;
     margin-top: 20px;
     text-decoration: none;
     font-size: 1.5rem;
+    transition: background-color 0.3s, color 0.3s; 
 }
+
+.cta:hover {
+    background-color: #E7A84A; 
+    color: #ffffff;             
+}
+
+.menu-section img {
+    width: 100%;
+    max-width: 500px; 
+    display: block;
+    margin: 10px auto; 
+}
+
+.menu-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.item-box {
+    background-color:#D8BA93; 
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px; 
+}
+
+.item-box img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto; 
+}
+
+.item-box span {
+    display: block;
+    text-align: center;
+    color: #326431; 
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 /* Footer */
 footer {
