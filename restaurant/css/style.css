@@ -8,8 +8,6 @@ body {
     background-color:rgb(143, 207, 216);
     color: hsl(119, 34%, 29%);
 }
-
-/* Navbar Styles */
 .navbar {
     background-color: #D8BA93;
     display: flex;
@@ -42,7 +40,6 @@ body {
     font-size: 1.5rem;
     transition: background-color 0.3s, color 0.3s; 
 }
-
 .cta:hover {
     background-color: #E7A84A; 
     color: #ffffff;             
@@ -90,7 +87,6 @@ header {
     font-size: 18px;
     font-weight: bold;
   }
-  
   .order-btn {
     background-color: #4CAF50;
     color: white;
@@ -104,11 +100,9 @@ header {
     cursor: pointer;
     border-radius: 8px;
   }
-  
   .order-btn:hover {
     background-color: #45a049;
   }
-  /* styles.css */
 
 .main {
     display: flex;
