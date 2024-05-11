@@ -25,8 +25,6 @@ body {
 .navbar a:hover {
     background-color: #E7A84A;
 }
-
-/* Hero Section */
 .hero {
     text-align: center;
     padding: 50px;
@@ -34,8 +32,6 @@ body {
 .hero h1 {
     font-size: 3rem;
 }
-
-/* CTA Button */
 .cta {
     background-color: #D8BA93; 
     color: #326431;             
@@ -51,51 +47,90 @@ body {
     background-color: #E7A84A; 
     color: #ffffff;             
 }
-
-.menu-section img {
-    width: 100%;
-    max-width: 500px; 
-    display: block;
-    margin: 10px auto; 
-}
-
-.menu-item ul {
-    list-style: none;
-    padding: 0;
-}
-
-.item-box {
-    background-color:#D8BA93; 
-    margin: 10px;
-    padding: 10px;
-    border-radius: 8px; 
-}
-
-.item-box img {
-    width: 300px;
-    height: auto;
-    display: block;
-    margin: 10px auto; 
-}
-
-.item-box span {
-    display: block;
+header {
+    background-color:#326431 ;
     text-align: center;
-    color: #326431; 
+    padding: 20px 0;
+  }
+  
+  h1 {
+    color:#326431;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .featured-dishes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dish-card {
+    width: 250px; 
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; 
+    text-align: center;
+  }
+  
+  .dish-card img {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .price {
+    font-size: 18px;
     font-weight: bold;
-    font-size: 20px;
-}
+  }
+  
+  .order-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .order-btn:hover {
+    background-color: #45a049;
+  }
+  /* styles.css */
 
-
-/* Footer */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .featured-dish {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px; 
+  }
 footer {
     text-align: center;
     padding: 20px;
     background-color: #D8BA93;
     color: #326431;
 }
-
-/* Media Query */
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
